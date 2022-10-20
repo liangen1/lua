@@ -4,7 +4,7 @@ module(..., package.seeall)
 
 -- 这里请填写修改为自己的IP和端口
 local host, port = "183.230.40.39", 6002
-mqttc = mqtt.client(943068003, 120, "409671", "LELPGq==83uCERgOFMT=RMH9gbc=")
+mqttc = mqtt.client(设备ID, 120, "产品ID", "APIKey")--设备ID,产品ID，APIKey
 local mqtt_flog =0
 
 function str2hex(str)
